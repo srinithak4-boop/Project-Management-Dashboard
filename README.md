@@ -1,16 +1,87 @@
-# React + Vite
+# Project Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+The Project Management Dashboard is a MERN Stack web application that helps users manage projects efficiently. Users can add project details, assign a status, and view all projects in a dashboard. The project uses React for the frontend, Express.js and Node.js for the backend, and MongoDB Atlas for data storage.
 
-Currently, two official plugins are available:
+## Features
+- Add new projects
+- View all projects
+- Store project information in MongoDB
+- Project status management
+- Simple and responsive user interface
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+### Frontend
+- React.js
+- Axios
+- CSS
+- Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Backend
+- Node.js
+- Express.js
 
-## Expanding the ESLint configuration
+### Database
+- MongoDB Atlas
+- Mongoose
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```
+Project-Management-Dashboard/
+│── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── server.js
+│   └── package.json
+│
+│── client/
+│   ├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── package.json
+│
+└── README.md
+```
+
+## Installation
+
+### Backend
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+### Frontend
+
+```bash
+cd client
+npm install
+npm run dev
+```
+
+## Output
+- Add Project
+- View Project List
+- Project Status
+- MongoDB Database Storage
+
+## Future Enhancements
+- Edit Projects
+- Delete Projects
+- User Authentication
+- Search and Filter Projects
+
+## Author
+
+**Srinitha K**
+
+B.Tech CSE Student
+
+## License
+
+This project is developed for educational and internship purposes.
